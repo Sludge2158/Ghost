@@ -6222,7 +6222,7 @@
     focus-trap "^6.7.2"
     postcss-preset-env "^7.3.1"
 
-"@tryghost/errors@1.2.21", "@tryghost/errors@1.2.24", "@tryghost/errors@1.2.25", "@tryghost/errors@^1.0.0", "@tryghost/errors@^1.2.1", "@tryghost/errors@^1.2.24", "@tryghost/errors@^1.2.3":
+"@tryghost/errors@1.2.21", "@tryghost/errors@1.2.24", "@tryghost/errors@1.2.25", "@tryghost/errors@^1.0.0", "@tryghost/errors@^1.2.1", "@tryghost/errors@^1.2.24", "@tryghost/errors@^1.2.26", "@tryghost/errors@^1.2.3":
   version "1.2.24"
   resolved "https://registry.yarnpkg.com/@tryghost/errors/-/errors-1.2.24.tgz#5daceff6cdee9421297849474fd885857c4bfe3f"
   integrity sha512-5iRF8dl2wirb/1gQA2dv8MtxK204vnjbWvmb3fULNZoVlmuHY1ZUgwRJRquClfUEFyl2qGmNDuoxGoTvur8JKA==
@@ -6231,12 +6231,12 @@
     lodash "^4.17.21"
     uuid "^9.0.0"
 
-"@tryghost/express-test@0.13.4":
-  version "0.13.4"
-  resolved "https://registry.yarnpkg.com/@tryghost/express-test/-/express-test-0.13.4.tgz#e31344a0c7678b7cfaff4d22e74e564d26f41ccc"
-  integrity sha512-10GpCeg70Mjmc3FPHZXrwwa6oTSs7oE8HBrgg6QSNr65CZb7U88lQYChaeRy8QSU+YFF6ElCA9LlUyg2C7yO5w==
+"@tryghost/express-test@0.13.6":
+  version "0.13.6"
+  resolved "https://registry.yarnpkg.com/@tryghost/express-test/-/express-test-0.13.6.tgz#7f5540bc9b9e15e3222d3d0469117ceded64603a"
+  integrity sha512-KU0Qq/x/2gMzmXQsKLGYoPwSpoGvw5yh643xuVr2qLjnzDdVUKgWRfNlKei1nbI68X9hkLZTGDRurohh5gg4UQ==
   dependencies:
-    "@tryghost/jest-snapshot" "^0.5.4"
+    "@tryghost/jest-snapshot" "^0.5.6"
     cookiejar "^2.1.3"
     reqresnext "^1.7.0"
 
@@ -6286,14 +6286,14 @@
   optionalDependencies:
     sharp "^0.30.0"
 
-"@tryghost/jest-snapshot@^0.5.4":
-  version "0.5.4"
-  resolved "https://registry.yarnpkg.com/@tryghost/jest-snapshot/-/jest-snapshot-0.5.4.tgz#dd7dccecc93274071f6cb01c4cd4f7a71fb77272"
-  integrity sha512-l0N8wkqCFRznA2ajsnh3Dk1DtBOTVl728vxEV7h3oEWn4oDeffWk6Pj+Ed4Z5Mw5T0yzHVekKHj4fILZSgSMFg==
+"@tryghost/jest-snapshot@^0.5.6":
+  version "0.5.6"
+  resolved "https://registry.yarnpkg.com/@tryghost/jest-snapshot/-/jest-snapshot-0.5.6.tgz#f1303d7beb5b7657e1b3d087a2f7e98a66b2d9b5"
+  integrity sha512-CaXYshavoDO53xtBFbXveQZVPPSTIhmMrRwwbtbhFg6ftq0AwKUWYrWJ/SU/4674cTr5Z8FO/Z4qkS3QMK/x3Q==
   dependencies:
     "@jest/expect" "^28.0.1"
     "@jest/expect-utils" "^28.0.1"
-    "@tryghost/errors" "^1.2.24"
+    "@tryghost/errors" "^1.2.26"
     jest-snapshot "^29.0.0"
 
 "@tryghost/kg-card-factory@4.0.8":
